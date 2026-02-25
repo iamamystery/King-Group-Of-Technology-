@@ -1,36 +1,166 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# King Group of Technology
 
-## Getting Started
+## World-Class SaaS Platform
 
-First, run the development server:
+A premium technology company website and client-facing platform built with Next.js 14, TypeScript, Tailwind CSS, and modern web technologies.
+
+## 🚀 Live Features
+
+### Public Website
+
+- **Landing Page** with stunning Three.js particle animations
+- **About Page** with company story, mission, vision, and timeline
+- **Services Page** with detailed service breakdowns
+- **Pricing Page** with interactive pricing toggle and comparison table
+- **Contact Page** with functional contact form
+
+### Client Portal
+
+- **Dashboard** with project overview, invoices, and notifications
+- **Projects** management with progress tracking
+- **Invoices** with payment status and download
+- **Support Tickets** system with priority levels
+- **Profile Settings** with security options
+
+### Admin Panel
+
+- **Dashboard** with business metrics
+- **Client Management**
+- **Project Management**
+- **Invoice Management**
+- **Support Ticket Management**
+
+### Authentication
+
+- **Login** with social auth options
+- **Registration** with form validation
+- **Password Reset** functionality
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + Custom CSS Variables
+- **UI Components:** Shadcn/UI + Radix UI
+- **Animations:** Framer Motion
+- **3D Effects:** Three.js + React Three Fiber
+- **Icons:** Lucide React
+- **Fonts:** Space Grotesk, Inter, JetBrains Mono
+
+## 📦 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/kinggroup/king-group-of-technology.git
+
+# Navigate to project directory
+cd king-group-of-technology
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Design System
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Colors
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Primary:** #0A0A0F (Deep Space Black)
+- **Secondary:** #6C63FF (Royal Electric Purple)
+- **Accent:** #00D4FF (Neon Cyan)
+- **Gold:** #FFD700 (Premium Gold)
+- **Background:** #0D0D1A (Dark Navy)
+- **Surface:** #13131F (Card Background)
 
-## Learn More
+### Typography
 
-To learn more about Next.js, take a look at the following resources:
+- **Headings:** Space Grotesk
+- **Body:** Inter
+- **Code:** JetBrains Mono
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+king-group-of-technology/
+├── app/                    # Next.js App Router pages
+│   ├── page.tsx           # Landing page
+│   ├── about/             # About page
+│   ├── services/          # Services page
+│   ├── pricing/           # Pricing page
+│   ├── contact/           # Contact page
+│   ├── auth/              # Authentication pages
+│   ├── dashboard/         # Client portal
+│   └── admin/             # Admin panel
+├── components/
+│   ├── ui/                # Shadcn/UI components
+│   ├── sections/          # Landing page sections
+│   ├── shared/            # Shared components
+│   ├── dashboard/         # Dashboard components
+│   └── admin/             # Admin components
+├── lib/                   # Utilities and helpers
+├── types/                 # TypeScript types
+├── hooks/                 # Custom React hooks
+└── public/               # Static assets
+```
 
-## Deploy on Vercel
+## 🌟 Key Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ✨ Glassmorphism design with gradient borders
+- 🎭 Three.js animated particle background
+- 📱 Fully responsive on all devices
+- 🎬 Smooth Framer Motion animations
+- 🎨 Premium dark theme with neon accents
+- 🔒 Secure authentication pages
+- 📊 Interactive dashboard with charts
+- 🎯 Scroll-triggered animations
+- 💫 Loading screen with brand animation
+- ⚠️ Custom error pages (404, 500)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔧 Environment Variables
+
+Create a `.env.local` file:
+
+```env
+# Database
+DATABASE_URL="your_database_url"
+
+# Authentication
+NEXTAUTH_SECRET="your_secret"
+NEXTAUTH_URL="http://localhost:3000"
+
+# OAuth Providers
+GOOGLE_CLIENT_ID="your_google_client_id"
+GOOGLE_CLIENT_SECRET="your_google_client_secret"
+GITHUB_CLIENT_ID="your_github_client_id"
+GITHUB_CLIENT_SECRET="your_github_client_secret"
+
+# API Keys
+RESEND_API_KEY="your_resend_api_key"
+STRIPE_SECRET_KEY="your_stripe_key"
+STRIPE_PUBLISHABLE_KEY="your_stripe_publishable_key"
+```
+
+## 📝 Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 👥 Leadership
+
+- **CEO & Founder:** Muhammad Jawad
+- **Co-Founder & President:** Syed Muhammad Awais
+
+## 📄 License
+
+© 2025 King Group of Technology. All rights reserved.
+
+---
+
+Built with ❤️ by King Group of Technology
