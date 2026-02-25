@@ -169,15 +169,18 @@ export default function RegisterPage() {
             {/* Confirm Password */}
             <div className="space-y-2">
               <Label htmlFor="confirmPassword" className="text-white">Confirm Password *</Label>
-              <Input
-                id="confirmPassword"
-                type="password"
-                placeholder="Confirm your password"
-                required
-                value={formData.confirmPassword}
-                onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
-                className="bg-white/5 border-white/10 text-white placeholder:text-[#A0A0B8]/50"
-              />
+              <div className="relative">
+                <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-[#A0A0B8]" />
+                <Input
+                  id="confirmPassword"
+                  type="password"
+                  placeholder="Confirm your password"
+                  required
+                  value={formData.confirmPassword}
+                  onChange={(e) => setFormData({ ...formData, confirmPassword: e.target.value })}
+                  className="pl-10 bg-white/5 border-white/10 text-white placeholder:text-[#A0A0B8]/50"
+                />
+              </div>
               {formData.password !== formData.confirmPassword && formData.confirmPassword && (
                 <p className="text-red-400 text-sm">Passwords do not match</p>
               )}

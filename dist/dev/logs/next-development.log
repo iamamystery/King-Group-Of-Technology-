@@ -92,3 +92,22 @@ Import trace:
 [00:12:32.975] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:12:33.512] Browser WARN    THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
 [00:12:59.061] Server  LOG     ✓ Compiled in 407ms
+[00:14:00.383] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:15:46.709] Browser WARN    THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[00:16:35.442] Server  LOG     ✓ Compiled in 1339ms
+[00:16:35.873] Browser ERROR   ./app/globals.css:3471:14
+Parsing CSS source code failed
+  3469 |   }
+  3470 |   .data-\[�8\11 \=�\.�ed\]\:bg-primary {
+> 3471 |     &[data-�8="�.�ed"] {
+       |              ^
+  3472 |       background-color: var(--primary);
+  3473 |     }
+  3474 |   }
+
+Unexpected token in attribute selector: Delim('\u{11}')
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
