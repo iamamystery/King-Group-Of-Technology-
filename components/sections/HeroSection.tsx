@@ -147,11 +147,9 @@ export function HeroSection() {
               </Button>
             </Link>
             <Link href="/services">
-              <Button
-                variant="outline"
-                className="rounded-full px-8 py-6 text-base font-semibold border-white/20 bg-white/5 hover:bg-white/10 text-white"
-              >
+              <Button className="btn-primary shine-effect rounded-full px-8 py-6 text-base font-semibold group">
                 Explore Services
+                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </Link>
           </motion.div>
