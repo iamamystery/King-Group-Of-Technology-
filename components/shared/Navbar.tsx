@@ -3,7 +3,8 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
-import { Menu, X, Crown } from "lucide-react"
+import { Menu, X } from "lucide-react"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
 const navLinks = [
@@ -41,10 +42,15 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative">
-              <Crown className="w-10 h-10 text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.8)]" />
-              <div className="absolute inset-0 bg-[#FFD700] rounded-full blur-xl opacity-60" />
-              <div className="absolute -inset-2 bg-gradient-to-r from-[#FFD700] via-[#FFA500] to-[#FFD700] rounded-full blur-lg opacity-40 animate-pulse" />
+            <div className="relative w-12 h-12">
+              <Image
+                src="/logokgt.png"
+                alt="KGT Logo"
+                fill
+                className="object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.8)]"
+              />
+              <div className="absolute inset-0 bg-[#FFD700] rounded-full blur-xl opacity-60 -z-10" />
+              <div className="absolute -inset-2 bg-gradient-to-r from-[#FFD700] via-[#FFA500] to-[#FFD700] rounded-full blur-lg opacity-40 animate-pulse -z-10" />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold font-['Space_Grotesk'] text-white leading-tight tracking-wide">
