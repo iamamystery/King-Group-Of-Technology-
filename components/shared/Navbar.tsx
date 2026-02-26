@@ -40,17 +40,14 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 group">
-            <motion.div
-              whileHover={{ rotate: 360 }}
-              transition={{ duration: 0.5 }}
-              className="relative"
-            >
-              <Crown className="w-8 h-8 text-[#FFD700]" />
-              <div className="absolute inset-0 glow-gold rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity" />
-            </motion.div>
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="relative">
+              <Crown className="w-10 h-10 text-[#FFD700] drop-shadow-[0_0_15px_rgba(255,215,0,0.8)]" />
+              <div className="absolute inset-0 bg-[#FFD700] rounded-full blur-xl opacity-60" />
+              <div className="absolute -inset-2 bg-gradient-to-r from-[#FFD700] via-[#FFA500] to-[#FFD700] rounded-full blur-lg opacity-40 animate-pulse" />
+            </div>
             <div className="flex flex-col">
-              <span className="text-lg font-bold font-['Space_Grotesk'] text-white leading-tight">
+              <span className="text-xl font-bold font-['Space_Grotesk'] text-white leading-tight tracking-wide">
                 KGT
               </span>
             </div>
