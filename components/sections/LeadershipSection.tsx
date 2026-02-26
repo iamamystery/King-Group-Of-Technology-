@@ -1,7 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Crown, Linkedin, Twitter } from "lucide-react"
+import { Linkedin, Twitter } from "lucide-react"
+import Image from "next/image"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 
 const leaders = [
@@ -38,7 +39,7 @@ export function LeadershipSection() {
           className="text-center mb-16"
         >
           <span className="inline-block px-4 py-2 rounded-full glass text-sm text-[#FFD700] mb-4">
-            <Crown className="w-4 h-4 inline mr-2" />
+            <Image src="/logokgt.png" alt="Crown" width={16} height={16} className="inline mr-2 w-4 h-4 object-contain" />
             Leadership
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-['Space_Grotesk'] mb-4">
@@ -61,15 +62,15 @@ export function LeadershipSection() {
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
               <div className="card-leadership p-8 text-center glow-gold">
-                {/* Crown Icon */}
+                {/* Crown Logo */}
                 <div className="flex justify-center mb-4">
-                  <Crown className="w-8 h-8 text-[#FFD700] crown-glow" />
+                  <Image src="/logokgt.png" alt="Crown" width={32} height={32} className="w-8 h-8 object-contain drop-shadow-[0_0_10px_rgba(255,215,0,0.8)]" />
                 </div>
 
                 {/* Role Badge */}
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2">
                   <div className="px-4 py-1 rounded-full bg-gradient-to-r from-[#FFD700] to-[#FFC000] text-[#0A0800] text-sm font-bold flex items-center gap-1">
-                    <Crown className="w-3 h-3" />
+                    <Image src="/logokgt.png" alt="Crown" width={12} height={12} className="w-3 h-3 object-contain" />
                     Founder
                   </div>
                 </div>

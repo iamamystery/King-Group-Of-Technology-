@@ -2,7 +2,8 @@
 
 import Link from "next/link"
 import { motion } from "framer-motion"
-import { Crown, Linkedin, Twitter, Github, Instagram, Mail, Phone, MapPin } from "lucide-react"
+import { Linkedin, Twitter, Github, Instagram, Mail, Phone, MapPin } from "lucide-react"
+import Image from "next/image"
 import { Separator } from "@/components/ui/separator"
 
 const footerLinks = {
@@ -47,7 +48,14 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-6">
-              <Crown className="w-8 h-8 text-[#FFD700]" />
+              <div className="relative w-10 h-10">
+                <Image
+                  src="/logokgt.png"
+                  alt="KGT Logo"
+                  fill
+                  className="object-contain drop-shadow-[0_0_10px_rgba(255,215,0,0.6)]"
+                />
+              </div>
               <div className="flex flex-col">
                 <span className="text-lg font-bold font-['Space_Grotesk'] text-white">
                   KGT
