@@ -3,7 +3,6 @@
 import { motion } from "framer-motion"
 import { Crown, Linkedin, Twitter } from "lucide-react"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
-import { Button } from "@/components/ui/button"
 
 const leaders = [
   {
@@ -28,7 +27,7 @@ const leaders = [
 
 export function LeadershipSection() {
   return (
-    <section className="relative py-24 bg-[#0A0A0F]">
+    <section className="relative py-24 bg-[#0A0800]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
@@ -44,9 +43,9 @@ export function LeadershipSection() {
           </span>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-['Space_Grotesk'] mb-4">
             Meet Our
-            <span className="gradient-text-gold"> Visionaries</span>
+            <span className="gradient-text"> Visionaries</span>
           </h2>
-          <p className="text-[#A0A0B8] text-lg max-w-2xl mx-auto">
+          <p className="text-[#C9A84C] text-lg max-w-2xl mx-auto">
             Guided by visionary leaders committed to transforming the digital landscape.
           </p>
         </motion.div>
@@ -61,62 +60,48 @@ export function LeadershipSection() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <div
-                className={`relative glass rounded-2xl p-8 text-center card-hover ${
-                  leader.isGold ? "glow-gold" : ""
-                }`}
-              >
-                {/* Gold Border for Leadership */}
-                {leader.isGold && (
-                  <div className="absolute inset-0 rounded-2xl border-2 border-[#FFD700]/50 pointer-events-none" />
-                )}
+              <div className="card-leadership p-8 text-center glow-gold">
+                {/* Crown Icon */}
+                <div className="flex justify-center mb-4">
+                  <Crown className="w-8 h-8 text-[#FFD700] crown-glow" />
+                </div>
 
                 {/* Role Badge */}
-                {leader.isGold && (
-                  <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                    <div className="px-4 py-1 rounded-full bg-gradient-to-r from-[#FFD700] to-[#FFA500] text-[#0A0A0F] text-sm font-semibold flex items-center gap-1">
-                      <Crown className="w-4 h-4" />
-                      Founder
-                    </div>
+                <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+                  <div className="px-4 py-1 rounded-full bg-gradient-to-r from-[#FFD700] to-[#FFC000] text-[#0A0800] text-sm font-bold flex items-center gap-1">
+                    <Crown className="w-3 h-3" />
+                    Founder
                   </div>
-                )}
+                </div>
 
                 {/* Avatar */}
-                <Avatar className="w-24 h-24 mx-auto mb-6 ring-4 ring-offset-4 ring-offset-[#0A0A0F] ring-[#FFD700]">
-                  <AvatarFallback className="bg-gradient-to-br from-[#FFD700] to-[#FFA500] text-[#0A0A0F] text-2xl font-bold">
+                <Avatar className="w-24 h-24 mx-auto mb-6 ring-4 ring-offset-4 ring-offset-[#0A0800] ring-[#FFD700]">
+                  <AvatarFallback className="bg-gradient-to-br from-[#FFD700] to-[#FFC000] text-[#0A0800] text-2xl font-bold">
                     {leader.name.split(" ").map(n => n[0]).join("")}
                   </AvatarFallback>
                 </Avatar>
 
                 {/* Info */}
-                <h3 className="text-2xl font-bold text-white mb-2">
+                <h3 className="text-2xl font-bold gradient-text mb-2">
                   {leader.name}
                 </h3>
                 <p className="text-[#FFD700] font-medium mb-4">{leader.role}</p>
-                <p className="text-[#A0A0B8] mb-6">{leader.bio}</p>
+                <p className="text-[#C9A84C] mb-6">{leader.bio}</p>
 
                 {/* Social Links */}
                 <div className="flex justify-center gap-4">
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    className="rounded-full border-[#0077B5]/50 hover:bg-[#0077B5]/20 hover:border-[#0077B5]"
-                    asChild
+                  <button
+                    className="rounded-full w-10 h-10 border border-[#FFD700]/30 hover:bg-[#FFD700]/10 flex items-center justify-center transition-all"
+                    onClick={() => window.open(leader.linkedin, '_blank')}
                   >
-                    <a href={leader.linkedin} target="_blank" rel="noopener noreferrer">
-                      <Linkedin className="w-5 h-5" />
-                    </a>
-                  </Button>
-                  <Button
-                    variant="outline"
-                    size="icon"
-                    className="rounded-full border-[#1DA1F2]/50 hover:bg-[#1DA1F2]/20 hover:border-[#1DA1F2]"
-                    asChild
+                    <Linkedin className="w-5 h-5 text-[#FFD700]" />
+                  </button>
+                  <button
+                    className="rounded-full w-10 h-10 border border-[#FFD700]/30 hover:bg-[#FFD700]/10 flex items-center justify-center transition-all"
+                    onClick={() => window.open(leader.twitter, '_blank')}
                   >
-                    <a href={leader.twitter} target="_blank" rel="noopener noreferrer">
-                      <Twitter className="w-5 h-5" />
-                    </a>
-                  </Button>
+                    <Twitter className="w-5 h-5 text-[#FFD700]" />
+                  </button>
                 </div>
               </div>
             </motion.div>

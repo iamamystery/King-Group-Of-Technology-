@@ -59,10 +59,9 @@ export function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="relative text-sm font-medium text-[#A0A0B8] hover:text-white transition-colors duration-300 group"
+                className="nav-link-gold relative text-sm font-medium"
               >
                 {link.label}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-[#6C63FF] to-[#00D4FF] group-hover:w-full transition-all duration-300" />
               </Link>
             ))}
           </nav>
@@ -70,9 +69,9 @@ export function Navbar() {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Link href="/auth/login">
-              <Button className="btn-primary shine-effect rounded-full px-6 py-2 text-sm font-semibold">
+              <button className="btn-royal rounded-full px-6 py-2 text-sm">
                 Get Started
-              </Button>
+              </button>
             </Link>
           </div>
 
@@ -112,9 +111,9 @@ export function Navbar() {
                 </Link>
               ))}
               <Link href="/auth/login" onClick={() => setIsMobileMenuOpen(false)}>
-                <Button className="btn-primary w-full rounded-full">
+                <button className="btn-royal w-full rounded-full">
                   Get Started
-                </Button>
+                </button>
               </Link>
             </nav>
           </motion.div>

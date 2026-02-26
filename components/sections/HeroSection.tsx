@@ -7,7 +7,6 @@ import * as THREE from "three"
 import { motion } from "framer-motion"
 import Link from "next/link"
 import { ArrowRight, Shield, Zap, CheckCircle2 } from "lucide-react"
-import { Button } from "@/components/ui/button"
 
 function ParticleField() {
   const ref = useRef<THREE.Points>(null)
@@ -35,7 +34,7 @@ function ParticleField() {
     <Points ref={ref} positions={particles} stride={3} frustumCulled={false}>
       <PointMaterial
         transparent
-        color="#6C63FF"
+        color="#FFD700"
         size={0.05}
         sizeAttenuation={true}
         depthWrite={false}
@@ -59,7 +58,7 @@ function FloatingOrb() {
     <mesh ref={ref} position={[3, 0, 0]}>
       <sphereGeometry args={[1.5, 32, 32]} />
       <meshStandardMaterial
-        color="#6C63FF"
+        color="#FFD700"
         transparent
         opacity={0.3}
         wireframe
@@ -72,8 +71,8 @@ function Scene() {
   return (
     <>
       <ambientLight intensity={0.5} />
-      <pointLight position={[10, 10, 10]} intensity={1} color="#6C63FF" />
-      <pointLight position={[-10, -10, -10]} intensity={0.5} color="#00D4FF" />
+      <pointLight position={[10, 10, 10]} intensity={1} color="#FFD700" />
+      <pointLight position={[-10, -10, -10]} intensity={0.5} color="#FFC000" />
       <ParticleField />
       <FloatingOrb />
     </>
@@ -82,7 +81,7 @@ function Scene() {
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0D0D1A]">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0A0800]">
       {/* Three.js Background */}
       <div className="absolute inset-0 z-0">
         <Canvas camera={{ position: [0, 0, 8], fov: 60 }}>
@@ -91,10 +90,10 @@ export function HeroSection() {
       </div>
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0D0D1A] via-transparent to-[#0D0D1A] z-10" />
+      <div className="absolute inset-0 bg-linear-to-b from-[#0A0800] via-transparent to-[#0A0800] z-10" />
       
       {/* Radial Gradient */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#6C63FF]/10 via-transparent to-transparent z-10" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,var(--tw-gradient-stops))] from-[#FFD700]/10 via-transparent to-transparent z-10" />
 
       {/* Content */}
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20">
@@ -106,8 +105,8 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-8"
           >
-            <span className="w-2 h-2 rounded-full bg-[#00D4FF] animate-pulse" />
-            <span className="text-sm text-[#A0A0B8]">Leading Technology Innovators</span>
+            <span className="w-2 h-2 rounded-full bg-[#FFD700] animate-pulse" />
+            <span className="text-sm text-[#C9A84C]">Leading Technology Innovators</span>
           </motion.div>
 
           {/* Main Headline */}
@@ -127,7 +126,7 @@ export function HeroSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-lg sm:text-xl text-[#A0A0B8] max-w-2xl mx-auto mb-10"
+            className="text-lg sm:text-xl text-[#C9A84C] max-w-2xl mx-auto mb-10"
           >
             World-class SaaS development, AI solutions, and digital transformation 
             services that empower businesses to grow, scale, and dominate their industries.
@@ -141,16 +140,16 @@ export function HeroSection() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
           >
             <Link href="/auth/register">
-              <Button className="btn-primary shine-effect rounded-full px-8 py-6 text-base font-semibold group">
+              <button className="btn-royal rounded-full px-8 py-6 text-base font-semibold group flex items-center">
                 Start Your Journey
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
+              </button>
             </Link>
             <Link href="/services">
-              <Button className="btn-primary shine-effect rounded-full px-8 py-6 text-base font-semibold group">
+              <button className="btn-royal-outline rounded-full px-8 py-6 text-base font-semibold group flex items-center">
                 Explore Services
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
+              </button>
             </Link>
           </motion.div>
 
@@ -170,8 +169,8 @@ export function HeroSection() {
                 key={index}
                 className="flex items-center gap-2 px-4 py-2 rounded-full glass"
               >
-                <badge.icon className="w-4 h-4 text-[#6C63FF]" />
-                <span className="text-sm text-[#A0A0B8]">{badge.label}</span>
+                <badge.icon className="w-4 h-4 text-[#FFD700]" />
+                <span className="text-sm text-[#C9A84C]">{badge.label}</span>
               </div>
             ))}
           </motion.div>
