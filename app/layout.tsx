@@ -48,14 +48,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-      <body className="antialiased bg-[#0D0D1A] text-white min-h-screen">
+      <body className="antialiased text-white min-h-screen relative">
+        {/* Crown Watermark Background */}
+        <div className="crown-watermark" />
+        {/* Golden Radial Overlay */}
+        <div className="golden-overlay" />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
           enableSystem={false}
           disableTransitionOnChange
         >
-          {children}
+          <div className="relative z-10">
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>
