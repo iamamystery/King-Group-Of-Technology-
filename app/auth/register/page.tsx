@@ -46,7 +46,7 @@ export default function RegisterPage() {
           </div>
           <h2 className="text-2xl font-bold text-white mb-4">Account Created!</h2>
           <p className="text-[#A0A0B8] mb-8">
-            Welcome to King Group of Technology. Please check your email to verify your account.
+            Welcome to KGT. Please check your email to verify your account.
           </p>
           <Link href="/auth/login">
             <Button className="btn-primary rounded-full px-8">

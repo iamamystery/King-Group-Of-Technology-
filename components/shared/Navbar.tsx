@@ -51,10 +51,7 @@ export function Navbar() {
             </motion.div>
             <div className="flex flex-col">
               <span className="text-lg font-bold font-['Space_Grotesk'] text-white leading-tight">
-                King Group
-              </span>
-              <span className="text-xs text-[#A0A0B8] leading-tight">
-                of Technology
+                KGT
               </span>
             </div>
           </Link>

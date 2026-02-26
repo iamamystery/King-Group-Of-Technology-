@@ -50,35 +50,35 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$shared$2f$Them
 ;
 ;
 const metadata = {
-    title: "King Group of Technology | Premium SaaS & Digital Solutions",
-    description: "King Group of Technology - Innovating the Future, One Solution at a Time. World-class technology solutions that empower businesses to grow, scale, and dominate their industries.",
+    title: "KGT | Premium SaaS & Digital Solutions",
+    description: "KGT - Innovating the Future, One Solution at a Time. World-class technology solutions that empower businesses to grow, scale, and dominate their industries.",
     keywords: "SaaS development, web development, mobile apps, AI solutions, cloud infrastructure, UI/UX design, IT consulting",
     authors: [
         {
-            name: "King Group of Technology"
+            name: "KGT"
         }
     ],
     creator: "Muhammad Jawad",
-    publisher: "King Group of Technology",
+    publisher: "KGT",
     openGraph: {
         type: "website",
         locale: "en_US",
         url: "https://kinggroup.tech",
-        siteName: "King Group of Technology",
-        title: "King Group of Technology | Premium SaaS & Digital Solutions",
+        siteName: "KGT",
+        title: "KGT | Premium SaaS & Digital Solutions",
         description: "World-class technology solutions that empower businesses to grow, scale, and dominate their industries.",
         images: [
             {
                 url: "/images/og-image.jpg",
                 width: 1200,
                 height: 630,
-                alt: "King Group of Technology"
+                alt: "KGT"
             }
         ]
     },
     twitter: {
         card: "summary_large_image",
-        title: "King Group of Technology | Premium SaaS & Digital Solutions",
+        title: "KGT | Premium SaaS & Digital Solutions",
         description: "World-class technology solutions that empower businesses to grow, scale, and dominate their industries.",
         images: [
             "/images/og-image.jpg"

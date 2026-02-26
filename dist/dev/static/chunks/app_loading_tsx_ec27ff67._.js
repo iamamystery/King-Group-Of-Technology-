@@ -74,7 +74,7 @@ function Loading() {
                         delay: 0.2
                     },
                     className: "text-xl font-bold font-['Space_Grotesk'] text-white mb-2",
-                    children: "King Group of Technology"
+                    children: "KGT"
                 }, void 0, false, {
                     fileName: "[project]/app/loading.tsx",
                     lineNumber: 30,

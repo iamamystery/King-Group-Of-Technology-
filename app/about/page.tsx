@@ -7,7 +7,7 @@ import { Crown, Target, Eye, Heart, Lightbulb, Users, Rocket, Award } from "luci
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 
 const milestones = [
-  { year: "2017", title: "Company Founded", description: "King Group of Technology was established by Muhammad Jawad with a vision to transform digital landscapes." },
+  { year: "2017", title: "Company Founded", description: "KGT was established by Muhammad Jawad with a vision to transform digital landscapes." },
   { year: "2018", title: "First Major Client", description: "Secured our first enterprise client and delivered a groundbreaking SaaS platform." },
   { year: "2019", title: "Team Expansion", description: "Grew to 20+ team members and opened our second office location." },
   { year: "2020", title: "Global Reach", description: "Expanded services internationally with clients across 5 continents." },

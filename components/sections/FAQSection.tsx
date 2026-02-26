@@ -11,7 +11,7 @@ import {
 const faqs = [
   {
     id: "1",
-    question: "What services does King Group of Technology offer?",
+    question: "What services does KGT offer?",
     answer: "We offer comprehensive technology solutions including SaaS development, web and mobile app development, AI & automation solutions, cloud infrastructure services, UI/UX design, and IT consulting. Our team of experts can handle everything from ideation to deployment and maintenance.",
   },
   {

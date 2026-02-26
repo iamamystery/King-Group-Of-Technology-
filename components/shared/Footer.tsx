@@ -50,9 +50,8 @@ export function Footer() {
               <Crown className="w-8 h-8 text-[#FFD700]" />
               <div className="flex flex-col">
                 <span className="text-lg font-bold font-['Space_Grotesk'] text-white">
-                  King Group
+                  KGT
                 </span>
-                <span className="text-xs text-[#A0A0B8]">of Technology</span>
               </div>
             </Link>
             <p className="text-[#A0A0B8] text-sm mb-6 max-w-xs">
@@ -154,7 +153,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-[#A0A0B8] text-sm">
-            &copy; {new Date().getFullYear()} King Group of Technology. All rights reserved.
+            &copy; {new Date().getFullYear()} KGT. All rights reserved.
           </p>
           <p className="text-[#A0A0B8] text-sm flex items-center gap-1">
             Crafted with <span className="text-[#6C63FF]">♥</span> by Muhammad Jawad & Syed Muhammad Awais

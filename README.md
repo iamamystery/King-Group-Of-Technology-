@@ -1,4 +1,4 @@
-# King Group of Technology
+# KGT
 
 ## World-Class SaaS Platform
 

@@ -33,7 +33,7 @@ export default function Loading() {
           transition={{ delay: 0.2 }}
           className="text-xl font-bold font-['Space_Grotesk'] text-white mb-2"
         >
-          King Group of Technology
+          KGT
         </motion.h2>
 
         {/* Loading Bar */}

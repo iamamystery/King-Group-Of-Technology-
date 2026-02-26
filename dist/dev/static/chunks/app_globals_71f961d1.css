@@ -893,6 +893,10 @@
     margin: calc(var(--spacing) * 3);
   }
 
+  .m-7 {
+    margin: calc(var(--spacing) * 7);
+  }
+
   .m-\[\#6C63FF\] {
     margin: #6c63ff;
   }
@@ -947,6 +951,10 @@
 
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
+  }
+
+  .mr-21 {
+    margin-right: calc(var(--spacing) * 21);
   }
 
   .mb-1 {
@@ -1227,6 +1235,10 @@
 
   .h-24 {
     height: calc(var(--spacing) * 24);
+  }
+
+  .h-43 {
+    height: calc(var(--spacing) * 43);
   }
 
   .h-46 {
@@ -3334,8 +3346,16 @@
     app-:  6;
   }
 
+  .\[key\:\15 \f 4ng\] {
+    key:   4ng;
+  }
+
   .\[key\:F\16 �\2 ng\] {
     key: F � ng;
+  }
+
+  .\[key\:\^\16 �\2 ng\] {
+    key: ^  � ng;
   }
 
   .\[key\:y\^4ng\] {

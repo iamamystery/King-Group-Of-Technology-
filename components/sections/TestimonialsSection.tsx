@@ -10,7 +10,7 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "CEO",
     company: "TechStart Inc.",
-    content: "King Group of Technology transformed our vision into reality. Their team's expertise in SaaS development is unmatched, and they delivered our platform ahead of schedule.",
+    content: "KGT transformed our vision into reality. Their team's expertise in SaaS development is unmatched, and they delivered our platform ahead of schedule.",
     rating: 5,
   },
   {
@@ -18,7 +18,7 @@ const testimonials = [
     name: "Michael Chen",
     role: "CTO",
     company: "InnovateCorp",
-    content: "Working with King Group was a game-changer for our digital transformation. Their attention to detail and technical excellence exceeded our expectations.",
+    content: "Working with KGT was a game-changer for our digital transformation. Their attention to detail and technical excellence exceeded our expectations.",
     rating: 5,
   },
   {

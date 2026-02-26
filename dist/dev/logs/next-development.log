@@ -11,3 +11,18 @@
 [00:07:06.868] Server  LOG     ✓ Compiled in 201ms
 [00:07:15.802] Server  LOG     ✓ Compiled in 132ms
 [00:07:21.388] Server  LOG     ✓ Compiled in 256ms
+[00:12:30.052] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:12:37.350] Browser WARN    THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[00:12:46.477] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:12:47.802] Browser WARN    THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[00:29:19.349] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:29:27.340] Browser WARN    THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[00:30:17.186] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:30:28.163] Server  LOG     ✓ Compiled in 264ms
+[00:30:35.504] Server  LOG     ✓ Compiled in 156ms
+[00:30:41.237] Server  LOG     ✓ Compiled in 192ms
+[00:30:51.042] Server  LOG     ✓ Compiled in 1574ms
+[00:30:56.020] Server  LOG     ✓ Compiled in 171ms
+[00:31:24.432] Server  LOG     ✓ Compiled in 151ms
+[00:31:30.796] Server  LOG     ✓ Compiled in 238ms
+[00:31:46.288] Server  LOG     ✓ Compiled in 296ms
