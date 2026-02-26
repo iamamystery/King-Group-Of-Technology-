@@ -885,6 +885,18 @@
     }
   }
 
+  .m-1 {
+    margin: calc(var(--spacing) * 1);
+  }
+
+  .m-3 {
+    margin: calc(var(--spacing) * 3);
+  }
+
+  .m-\[\#6C63FF\] {
+    margin: #6c63ff;
+  }
+
   .-mx-1 {
     margin-inline: calc(var(--spacing) * -1);
   }
@@ -2397,13 +2409,13 @@
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
-  .from-\[\#FFD700\] {
-    --tw-gradient-from: gold;
+  .from-\[\#F97316\] {
+    --tw-gradient-from: #f97316;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
-  .from-\[\^\8 �\]\/30 {
-    --tw-gradient-from: color-mix(in oklab, ^  � 30%, transparent);
+  .from-\[\#FFD700\] {
+    --tw-gradient-from: gold;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
@@ -2457,6 +2469,11 @@
 
   .to-\[\#14B8A6\] {
     --tw-gradient-to: #14b8a6;
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
+
+  .to-\[\#EA580C\] {
+    --tw-gradient-to: #ea580c;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
 
@@ -3317,8 +3334,8 @@
     app-:  6;
   }
 
-  .\[key\:\15 P4ng\] {
-    key:  P4ng;
+  .\[key\:F\16 �\2 ng\] {
+    key: F � ng;
   }
 
   .\[key\:y\^4ng\] {
@@ -3327,6 +3344,18 @@
 
   .\[key\:Ā4ng\] {
     key: Ā4ng;
+  }
+
+  .\[key\:�\,\14 \] {
+    key: �,  ;
+  }
+
+  .\[key\:�0\14 \] {
+    key: �0 ;
+  }
+
+  .\[key\:���ng\] {
+    key: ���ng;
   }
 
   .\[name\:\4 \6 �\] {

@@ -3,7 +3,7 @@
 import { Navbar } from "@/components/shared/Navbar"
 import { Footer } from "@/components/shared/Footer"
 import { motion } from "framer-motion"
-import { Cloud, Smartphone, Bot, Server, Palette, MessageSquare, ArrowRight, Check } from "lucide-react"
+import { Cloud, Smartphone, Bot, Server, Palette, MessageSquare, ArrowRight, Check, Database } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
@@ -103,6 +103,22 @@ const services = [
     ],
     benefits: ["Strategic direction", "Risk mitigation", "Expert guidance"],
     gradient: "from-[#6366F1] to-[#8B5CF6]",
+  },
+  {
+    id: "scraping",
+    title: "Web Scraping & Data Extraction",
+    description: "Extract valuable data from any website with our robust, scalable, and ethical web scraping solutions.",
+    icon: Database,
+    features: [
+      "Custom scrapers for any website or API",
+      "Real-time data extraction & monitoring",
+      "Automated data cleaning & structuring",
+      "Proxy rotation & anti-detection systems",
+      "Scheduled scraping with cron jobs",
+      "Data export in CSV, JSON, or database formats",
+    ],
+    benefits: ["Competitive intelligence", "Market research", "Lead generation"],
+    gradient: "from-[#F97316] to-[#EA580C]",
   },
 ]
 

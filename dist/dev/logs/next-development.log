@@ -1,12 +1,13 @@
-[00:00:02.212] Server  LOG     ✓ Ready in 1440ms
-[00:01:32.113] Server  LOG     ○ Compiling / ...
-[00:01:36.755] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3001". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:01:38.395] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:01:39.164] Browser WARN    THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
-[00:09:01.124] Server  LOG     ○ Compiling /services ...
-[00:09:02.380] Server  ERROR   ⨯ Error: Attempted to call createMotionComponent() from the server but createMotionComponent is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
-[00:09:03.325] Browser LOG     THREE.WebGLRenderer: Context Lost.
-[00:09:42.430] Server  LOG     ✓ Compiled in 3.8s
-[00:38:27.268] Server  LOG     ✓ Compiled in 4.2s
-[00:09:43.022] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3001". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
-[00:10:03.298] Server  LOG     ✓ Compiled in 756ms
+[00:00:01.409] Server  WARN    ⚠ Turbopack's filesystem cache has been deleted because we previously detected an internal error in Turbopack. Builds or page loads may be slower as a result.
+[00:00:01.853] Server  LOG     ✓ Ready in 1334ms
+[00:00:10.207] Server  LOG     ○ Compiling / ...
+[00:00:14.460] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:15.898] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:16.584] Browser WARN    THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[00:00:19.623] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.084] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:00:28.126] Browser WARN    THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[00:07:01.557] Server  LOG     ✓ Compiled in 1544ms
+[00:07:06.868] Server  LOG     ✓ Compiled in 201ms
+[00:07:15.802] Server  LOG     ✓ Compiled in 132ms
+[00:07:21.388] Server  LOG     ✓ Compiled in 256ms

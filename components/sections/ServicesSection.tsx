@@ -8,6 +8,7 @@ import {
   Server, 
   Palette, 
   MessageSquare,
+  Database,
   ArrowRight 
 } from "lucide-react"
 import Link from "next/link"
@@ -61,6 +62,14 @@ const services = [
     icon: MessageSquare,
     features: ["Tech Strategy", "Digital Transformation", "Architecture Review"],
     gradient: "from-[#6366F1] to-[#8B5CF6]",
+  },
+  {
+    id: "scraping",
+    title: "Web Scraping",
+    description: "Extract valuable data from any website with our robust, scalable, and ethical web scraping solutions.",
+    icon: Database,
+    features: ["Custom Scrapers", "Real-time Data", "Data Export"],
+    gradient: "from-[#F97316] to-[#EA580C]",
   },
 ]
 

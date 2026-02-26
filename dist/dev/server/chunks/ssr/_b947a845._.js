@@ -1556,6 +1556,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$server$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Server$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/server.js [app-ssr] (ecmascript) <export default as Server>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$palette$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Palette$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/palette.js [app-ssr] (ecmascript) <export default as Palette>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/message-square.js [app-ssr] (ecmascript) <export default as MessageSquare>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$database$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Database$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/database.js [app-ssr] (ecmascript) <export default as Database>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-ssr] (ecmascript) <export default as ArrowRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/ui/button.tsx [app-ssr] (ecmascript)");
@@ -1637,6 +1638,18 @@ const services = [
             "Architecture Review"
         ],
         gradient: "from-[#6366F1] to-[#8B5CF6]"
+    },
+    {
+        id: "scraping",
+        title: "Web Scraping",
+        description: "Extract valuable data from any website with our robust, scalable, and ethical web scraping solutions.",
+        icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$database$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Database$3e$__["Database"],
+        features: [
+            "Custom Scrapers",
+            "Real-time Data",
+            "Data Export"
+        ],
+        gradient: "from-[#F97316] to-[#EA580C]"
     }
 ];
 function ServicesSection() {
@@ -1650,20 +1663,20 @@ function ServicesSection() {
                         className: "absolute top-1/4 -left-32 w-64 h-64 bg-[#6C63FF]/10 rounded-full blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/ServicesSection.tsx",
-                        lineNumber: 72,
+                        lineNumber: 81,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute bottom-1/4 -right-32 w-64 h-64 bg-[#00D4FF]/10 rounded-full blur-3xl"
                     }, void 0, false, {
                         fileName: "[project]/components/sections/ServicesSection.tsx",
-                        lineNumber: 73,
+                        lineNumber: 82,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/ServicesSection.tsx",
-                lineNumber: 71,
+                lineNumber: 80,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1691,7 +1704,7 @@ function ServicesSection() {
                                 children: "Our Services"
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/ServicesSection.tsx",
-                                lineNumber: 85,
+                                lineNumber: 94,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1703,13 +1716,13 @@ function ServicesSection() {
                                         children: " Results"
                                     }, void 0, false, {
                                         fileName: "[project]/components/sections/ServicesSection.tsx",
-                                        lineNumber: 90,
+                                        lineNumber: 99,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/sections/ServicesSection.tsx",
-                                lineNumber: 88,
+                                lineNumber: 97,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1717,13 +1730,13 @@ function ServicesSection() {
                                 children: "From concept to deployment, we deliver comprehensive technology solutions tailored to your business needs."
                             }, void 0, false, {
                                 fileName: "[project]/components/sections/ServicesSection.tsx",
-                                lineNumber: 92,
+                                lineNumber: 101,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/sections/ServicesSection.tsx",
-                        lineNumber: 78,
+                        lineNumber: 87,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1753,12 +1766,12 @@ function ServicesSection() {
                                                 className: "w-7 h-7 text-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/sections/ServicesSection.tsx",
-                                                lineNumber: 110,
+                                                lineNumber: 119,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/ServicesSection.tsx",
-                                            lineNumber: 109,
+                                            lineNumber: 118,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1766,7 +1779,7 @@ function ServicesSection() {
                                             children: service.title
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/ServicesSection.tsx",
-                                            lineNumber: 114,
+                                            lineNumber: 123,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1774,7 +1787,7 @@ function ServicesSection() {
                                             children: service.description
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/ServicesSection.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 126,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1786,19 +1799,19 @@ function ServicesSection() {
                                                             className: `w-1.5 h-1.5 rounded-full bg-gradient-to-r ${service.gradient}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/sections/ServicesSection.tsx",
-                                                            lineNumber: 125,
+                                                            lineNumber: 134,
                                                             columnNumber: 23
                                                         }, this),
                                                         feature
                                                     ]
                                                 }, idx, true, {
                                                     fileName: "[project]/components/sections/ServicesSection.tsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 133,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/ServicesSection.tsx",
-                                            lineNumber: 122,
+                                            lineNumber: 131,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1812,46 +1825,46 @@ function ServicesSection() {
                                                         className: "ml-2 w-4 h-4 group-hover/btn:translate-x-1 transition-transform"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/sections/ServicesSection.tsx",
-                                                        lineNumber: 138,
+                                                        lineNumber: 147,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/sections/ServicesSection.tsx",
-                                                lineNumber: 133,
+                                                lineNumber: 142,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/sections/ServicesSection.tsx",
-                                            lineNumber: 132,
+                                            lineNumber: 141,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/sections/ServicesSection.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 116,
                                     columnNumber: 15
                                 }, this)
                             }, service.id, false, {
                                 fileName: "[project]/components/sections/ServicesSection.tsx",
-                                lineNumber: 100,
+                                lineNumber: 109,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/sections/ServicesSection.tsx",
-                        lineNumber: 98,
+                        lineNumber: 107,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/sections/ServicesSection.tsx",
-                lineNumber: 76,
+                lineNumber: 85,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/sections/ServicesSection.tsx",
-        lineNumber: 69,
+        lineNumber: 78,
         columnNumber: 5
     }, this);
 }
