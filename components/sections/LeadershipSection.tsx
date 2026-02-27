@@ -64,7 +64,7 @@ export function LeadershipSection() {
               <div className="card-leadership p-8 text-center glow-gold">
                 {/* Crown Logo */}
                 <div className="flex justify-center mb-4">
-                  <Image src="/logokgt.png" alt="Crown" width={32} height={32} className="w-8 h-8 object-contain drop-shadow-[0_0_10px_rgba(255,215,0,0.8)]" />
+                  <Image src="/logokgt.png" alt="Crown" width={32} height={32} className="w-8 h-8 object-contain" />
                 </div>
 
                 {/* Role Badge */}

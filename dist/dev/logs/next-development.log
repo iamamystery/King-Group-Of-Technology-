@@ -1,0 +1,107 @@
+[00:00:01.626] Server  LOG     ✓ Ready in 1099ms
+[00:00:04.781] Server  LOG     ○ Compiling / ...
+[00:00:07.816] Server  WARN    ⚠ metadataBase property in metadata export is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+[00:00:09.180] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.254] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:48.004] Browser WARN    THREE.THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[00:03:48.116] Browser WARN    Image with src "/logokgt.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:13:04.614] Server  LOG     ✓ Compiled in 1492ms
+[00:13:05.638] Browser ERROR   ./app/globals.css:3974:8
+Parsing CSS source code failed
+  3972 |   }
+  3973 |   .\[\&\[�\2 �\b tate\=open\]\>svg\]\:rotate-180 {
+> 3974 |     &[��tate=open]>svg {
+       |        ^
+  3975 |       rotate: 180deg;
+  3976 |     }
+  3977 |   }
+
+Unexpected token in attribute selector: Delim('\u{2}')
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:13:05.639] Browser ERROR   ./app/globals.css:3974:8
+Parsing CSS source code failed
+  3972 |   }
+  3973 |   .\[\&\[�\2 �\b tate\=open\]\>svg\]\:rotate-180 {
+> 3974 |     &[��tate=open]>svg {
+       |        ^
+  3975 |       rotate: 180deg;
+  3976 |     }
+  3977 |   }
+
+Unexpected token in attribute selector: Delim('\u{2}')
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:13:13.888] Server  LOG     ✓ Compiled in 342ms
+[00:13:14.646] Browser ERROR   ./app/globals.css:3983:8
+Parsing CSS source code failed
+  3981 |   }
+  3982 |   .\[\&\[�\2 �\b tate\=open\]\>svg\]\:rotate-180 {
+> 3983 |     &[��tate=open]>svg {
+       |        ^
+  3984 |       rotate: 180deg;
+  3985 |     }
+  3986 |   }
+
+Unexpected token in attribute selector: Delim('\u{2}')
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:13:14.646] Browser ERROR   ./app/globals.css:3983:8
+Parsing CSS source code failed
+  3981 |   }
+  3982 |   .\[\&\[�\2 �\b tate\=open\]\>svg\]\:rotate-180 {
+> 3983 |     &[��tate=open]>svg {
+       |        ^
+  3984 |       rotate: 180deg;
+  3985 |     }
+  3986 |   }
+
+Unexpected token in attribute selector: Delim('\u{2}')
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:13:23.032] Server  LOG     ✓ Compiled in 143ms
+[00:13:23.640] Browser ERROR   ./app/globals.css:3983:8
+Parsing CSS source code failed
+  3981 |   }
+  3982 |   .\[\&\[�\2 �\b tate\=open\]\>svg\]\:rotate-180 {
+> 3983 |     &[��tate=open]>svg {
+       |        ^
+  3984 |       rotate: 180deg;
+  3985 |     }
+  3986 |   }
+
+Unexpected token in attribute selector: Delim('\u{2}')
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:13:23.640] Browser ERROR   ./app/globals.css:3983:8
+Parsing CSS source code failed
+  3981 |   }
+  3982 |   .\[\&\[�\2 �\b tate\=open\]\>svg\]\:rotate-180 {
+> 3983 |     &[��tate=open]>svg {
+       |        ^
+  3984 |       rotate: 180deg;
+  3985 |     }
+  3986 |   }
+
+Unexpected token in attribute selector: Delim('\u{2}')
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]

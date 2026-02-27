@@ -53,7 +53,7 @@ export function Footer() {
                   src="/logokgt.png"
                   alt="KGT Logo"
                   fill
-                  className="object-contain drop-shadow-[0_0_10px_rgba(255,215,0,0.6)]"
+                  className="object-contain"
                 />
               </div>
               <div className="flex flex-col">

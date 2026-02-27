@@ -47,10 +47,8 @@ export function Navbar() {
                 src="/logokgt.png"
                 alt="KGT Logo"
                 fill
-                className="object-contain drop-shadow-[0_0_15px_rgba(255,215,0,0.8)]"
+                className="object-contain"
               />
-              <div className="absolute inset-0 bg-[#FFD700] rounded-full blur-xl opacity-60 -z-10" />
-              <div className="absolute -inset-2 bg-gradient-to-r from-[#FFD700] via-[#FFA500] to-[#FFD700] rounded-full blur-lg opacity-40 animate-pulse -z-10" />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold font-['Space_Grotesk'] text-white leading-tight tracking-wide">
